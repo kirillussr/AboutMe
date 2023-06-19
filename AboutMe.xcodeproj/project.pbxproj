@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED43BD4E2A406A81008D038A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43BD4D2A406A81008D038A /* WelcomeViewController.swift */; };
+		ED52BBA12A405AEA00B480CC /* RauolDuke.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */; };
 		EDCD2E922A403EFC00A017DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E912A403EFC00A017DE /* AppDelegate.swift */; };
 		EDCD2E942A403EFC00A017DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */; };
-		EDCD2E962A403EFC00A017DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E952A403EFC00A017DE /* ViewController.swift */; };
+		EDCD2E962A403EFC00A017DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E952A403EFC00A017DE /* LoginViewController.swift */; };
 		EDCD2E992A403EFC00A017DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCD2E972A403EFC00A017DE /* Main.storyboard */; };
 		EDCD2E9B2A403EFD00A017DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCD2E9A2A403EFD00A017DE /* Assets.xcassets */; };
 		EDCD2E9E2A403EFD00A017DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCD2E9C2A403EFD00A017DE /* LaunchScreen.storyboard */; };
+		EDCD2EAB2A40562100A017DE /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2EAA2A40562100A017DE /* Form.swift */; };
+		EDCD2EAF2A4056D000A017DE /* FirstResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2EAE2A4056D000A017DE /* FirstResumeViewController.swift */; };
+		EDCD2EB12A4056E400A017DE /* SecondResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2EB02A4056E400A017DE /* SecondResumeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED43BD4D2A406A81008D038A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RauolDuke.jpeg; path = ../../../../../../../Downloads/RauolDuke.jpeg; sourceTree = "<group>"; };
 		EDCD2E8E2A403EFC00A017DE /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCD2E912A403EFC00A017DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDCD2E952A403EFC00A017DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDCD2E952A403EFC00A017DE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EDCD2E982A403EFC00A017DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDCD2E9A2A403EFD00A017DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCD2E9D2A403EFD00A017DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCD2E9F2A403EFD00A017DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCD2EAA2A40562100A017DE /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		EDCD2EAE2A4056D000A017DE /* FirstResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResumeViewController.swift; sourceTree = "<group>"; };
+		EDCD2EB02A4056E400A017DE /* SecondResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondResumeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED52BB9F2A405A8D00B480CC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		EDCD2E852A403EFC00A017DE = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +74,52 @@
 		EDCD2E902A403EFC00A017DE /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				EDCD2E912A403EFC00A017DE /* AppDelegate.swift */,
-				EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */,
-				EDCD2E952A403EFC00A017DE /* ViewController.swift */,
-				EDCD2E972A403EFC00A017DE /* Main.storyboard */,
+				EDCD2EA52A403F5F00A017DE /* App */,
+				EDCD2EA72A403F9600A017DE /* ViewControllers */,
+				EDCD2EA82A403FB700A017DE /* Models */,
+				EDCD2EA62A403F7800A017DE /* Storyboards */,
+				ED52BB9F2A405A8D00B480CC /* Images */,
 				EDCD2E9A2A403EFD00A017DE /* Assets.xcassets */,
-				EDCD2E9C2A403EFD00A017DE /* LaunchScreen.storyboard */,
-				EDCD2E9F2A403EFD00A017DE /* Info.plist */,
 			);
 			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		EDCD2EA52A403F5F00A017DE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD2E912A403EFC00A017DE /* AppDelegate.swift */,
+				EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */,
+				EDCD2E9F2A403EFD00A017DE /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EDCD2EA62A403F7800A017DE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD2E972A403EFC00A017DE /* Main.storyboard */,
+				EDCD2E9C2A403EFD00A017DE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDCD2EA72A403F9600A017DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD2E952A403EFC00A017DE /* LoginViewController.swift */,
+				ED43BD4D2A406A81008D038A /* WelcomeViewController.swift */,
+				EDCD2EAE2A4056D000A017DE /* FirstResumeViewController.swift */,
+				EDCD2EB02A4056E400A017DE /* SecondResumeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDCD2EA82A403FB700A017DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD2EAA2A40562100A017DE /* Form.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +182,7 @@
 			files = (
 				EDCD2E9E2A403EFD00A017DE /* LaunchScreen.storyboard in Resources */,
 				EDCD2E9B2A403EFD00A017DE /* Assets.xcassets in Resources */,
+				ED52BBA12A405AEA00B480CC /* RauolDuke.jpeg in Resources */,
 				EDCD2E992A403EFC00A017DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDCD2E962A403EFC00A017DE /* ViewController.swift in Sources */,
+				EDCD2E962A403EFC00A017DE /* LoginViewController.swift in Sources */,
+				EDCD2EAB2A40562100A017DE /* Form.swift in Sources */,
 				EDCD2E922A403EFC00A017DE /* AppDelegate.swift in Sources */,
+				EDCD2EB12A4056E400A017DE /* SecondResumeViewController.swift in Sources */,
+				EDCD2EAF2A4056D000A017DE /* FirstResumeViewController.swift in Sources */,
 				EDCD2E942A403EFC00A017DE /* SceneDelegate.swift in Sources */,
+				ED43BD4E2A406A81008D038A /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +349,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B4D33S9Y62;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AboutMe/Info.plist;
+				INFOPLIST_FILE = AboutMe/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +363,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = openYourMind.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +381,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B4D33S9Y62;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AboutMe/Info.plist;
+				INFOPLIST_FILE = AboutMe/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +395,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = openYourMind.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
