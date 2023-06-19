@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		ED43BD4D2A406A81008D038A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RauolDuke.jpeg; path = ../../../../../../../Downloads/RauolDuke.jpeg; sourceTree = "<group>"; };
+		ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RauolDuke.jpeg; sourceTree = "<group>"; };
 		EDCD2E8E2A403EFC00A017DE /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCD2E912A403EFC00A017DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
