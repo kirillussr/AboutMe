@@ -21,6 +21,8 @@ final class FirstResumeViewController: UIViewController {
     
     private let myData = User.getMyData()
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

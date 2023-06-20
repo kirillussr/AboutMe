@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
     @IBOutlet var userNameTextField: UITextField!
     @IBOutlet var userPasswordTextField: UITextField!
     
-    private let myData = User.getMyData()
+    let myData = User.getMyData()
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)

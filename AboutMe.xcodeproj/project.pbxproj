@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		ED43BD4E2A406A81008D038A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43BD4D2A406A81008D038A /* WelcomeViewController.swift */; };
-		ED52BBA12A405AEA00B480CC /* RauolDuke.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */; };
 		EDCD2E922A403EFC00A017DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E912A403EFC00A017DE /* AppDelegate.swift */; };
 		EDCD2E942A403EFC00A017DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */; };
 		EDCD2E962A403EFC00A017DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD2E952A403EFC00A017DE /* LoginViewController.swift */; };
@@ -22,7 +21,6 @@
 
 /* Begin PBXFileReference section */
 		ED43BD4D2A406A81008D038A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RauolDuke.jpeg; sourceTree = "<group>"; };
 		EDCD2E8E2A403EFC00A017DE /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCD2E912A403EFC00A017DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCD2E932A403EFC00A017DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,14 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED52BB9F2A405A8D00B480CC /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				ED52BBA02A405AEA00B480CC /* RauolDuke.jpeg */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		EDCD2E852A403EFC00A017DE = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +68,6 @@
 				EDCD2EA72A403F9600A017DE /* ViewControllers */,
 				EDCD2EA82A403FB700A017DE /* Models */,
 				EDCD2EA62A403F7800A017DE /* Storyboards */,
-				ED52BB9F2A405A8D00B480CC /* Images */,
 				EDCD2E9A2A403EFD00A017DE /* Assets.xcassets */,
 			);
 			path = AboutMe;
@@ -182,7 +171,6 @@
 			files = (
 				EDCD2E9E2A403EFD00A017DE /* LaunchScreen.storyboard in Resources */,
 				EDCD2E9B2A403EFD00A017DE /* Assets.xcassets in Resources */,
-				ED52BBA12A405AEA00B480CC /* RauolDuke.jpeg in Resources */,
 				EDCD2E992A403EFC00A017DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
